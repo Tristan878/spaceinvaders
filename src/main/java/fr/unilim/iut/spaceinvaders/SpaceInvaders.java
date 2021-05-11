@@ -23,7 +23,7 @@ public class SpaceInvaders {
 	}
 
 
-	private String recupererEspaceJeuDansChaineASCII() {
+	public String recupererEspaceJeuDansChaineASCII() {
 		StringBuilder espaceDeJeu = new StringBuilder();
 		for (int y = 0; y < hauteur; y++) {
 			for (int x = 0; x < longueur; x++) {
@@ -55,7 +55,7 @@ public class SpaceInvaders {
 	}
 
 
-public void positionnerUnNouveauVaisseau(int x, int y) {
+	public void positionnerUnNouveauVaisseau(int x, int y) {
 		
 		if (  !estDansEspaceJeu(x, y) )
 			throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu");
@@ -65,7 +65,15 @@ public void positionnerUnNouveauVaisseau(int x, int y) {
 	}
 
 
-private boolean estDansEspaceJeu(int x, int y) {
-	return ((x >= 0) && (x < longueur)) && ((y >= 0) && (y < hauteur));
-}
+	private boolean estDansEspaceJeu(int x, int y) {
+		return ((x >= 0) && (x < longueur)) && ((y >= 0) && (y < hauteur));
+	}
+	
+	 public void deplacerVaisseauVersLaDroite() {
+		 if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
+	 }
+	 
+	 public void deplacerVaisseauVersLaGauche() {
+	        if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaGauche();
+		}
 }
