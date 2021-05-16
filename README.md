@@ -1,4 +1,33 @@
 # spaceinvaders
+
+## Semaine 3 du 10 au 14 mai 
+
+###Fonctionnalitées réaliser
+
+###Fonctionalité numéro 1 :
+
+- Etape 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu  
+Le vaisseau se déplace d'un pas vers la droite 
+Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
+
+
+- Etape 4  : Déplacer le vaisseau vers la gauche dans l'espace de jeu  
+Le vaisseau se déplace d'un pas vers la gauche 
+Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle). (WIP)
+
+### Fonctionnalités en cours d'implémentation : 
+- Etape 4
+
+### Diagramme de classe : 
+![Diagramme de classe semaine 3](./Image/DiagrammeDeClasseTP2.PNG)
+
+### Nuage de mots :
+
+![Nuage de mots](./Image/NuageDeMotTP2.PNG)
+
+
+
+
 ## Semaine 2 du 26 au 1mai 
 
 
@@ -19,7 +48,7 @@ Le coin supérieur gauche de l’espace jeu (point en haut à gauche) a pour coo
 La taille du vaisseau est réduite pour l'instant à son minimum.
 
 ### Fonctionnalités en cours d'implémentation : 
-- Etape 3
+- Etape 2
 
 ### Diagramme de classe : 
 ![Diagramme de classe semaine 2](./Image/DiagrammeDeClasse1.PNG)
@@ -31,3 +60,8 @@ La taille du vaisseau est réduite pour l'instant à son minimum.
 ### Glossaire
 
 * **Vaisseau** :  véhicule commandé par le joueur, pouvant se déplacer de droite à gauche et ayant la possibilité de lancer des missiles destinés à détruire le(s) envahisseurs.
+
+
+
+
+
