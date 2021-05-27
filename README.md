@@ -1,5 +1,33 @@
 # spaceinvaders
 
+## Semaine 4 du 17 au 21 mai 
+
+###Fonctionnalitées réaliser
+
+###Fonctionalité numéro 1 :
+
+- Etape 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu  
+Le vaisseau se déplace d'un pas vers la droite 
+Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
+
+
+- Etape 4  : Déplacer le vaisseau vers la gauche dans l'espace de jeu  
+Le vaisseau se déplace d'un pas vers la gauche 
+Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle). (WIP)
+
+
+###Fonctionalité numéro 2 :
+
+- Etape 1 : Positionner un nouveau vaisseau avec une dimension donnée
+On positione un vaisseau d'une taille donner, ici (3,2).
+
+### Diagramme de classe : 
+![Diagramme de classe semaine 3](./Image/DiagrammeDeClasseTP3.PNG)
+
+### Nuage de mots :
+
+![Nuage de mots](./Image/NuageDeMotsTP3.PNG)
+
 ## Semaine 3 du 10 au 14 mai 
 
 ###Fonctionnalitées réaliser
