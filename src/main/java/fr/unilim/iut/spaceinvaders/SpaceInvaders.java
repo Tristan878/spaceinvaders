@@ -70,7 +70,12 @@ public class SpaceInvaders {
 		}
 
 
+	 public void positionnerUnNouveauVaisseau(Dimension dimension, Position position) {
+			positionnerUnNouveauVaisseau(dimension.longueur(), dimension.hauteur(),
+													position.abscisse(), position.ordonnee());
 
+		}
+	 
 		 public void positionnerUnNouveauVaisseau(int longueur, int hauteur, int x, int y) {
 				if (!estDansEspaceJeu(x, y))
 					throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu");
