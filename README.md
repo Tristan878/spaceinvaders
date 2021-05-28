@@ -2,9 +2,9 @@
 
 ## Semaine 4 du 17 au 21 mai 
 
-###Fonctionnalitées réaliser
+### Fonctionnalitées réaliser
 
-###Fonctionalité numéro 1 :
+### Fonctionalité numéro 1 :
 
 - Etape 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu  
 Le vaisseau se déplace d'un pas vers la droite 
@@ -16,7 +16,7 @@ Le vaisseau se déplace d'un pas vers la gauche
 Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle). (WIP)
 
 
-###Fonctionalité numéro 2 :
+### Fonctionalité numéro 2 :
 
 - Etape 1 : Positionner un nouveau vaisseau avec une dimension donnée
 On positione un vaisseau d'une taille donner, ici (3,2).
@@ -30,9 +30,9 @@ On positione un vaisseau d'une taille donner, ici (3,2).
 
 ## Semaine 3 du 10 au 14 mai 
 
-###Fonctionnalitées réaliser
+### Fonctionnalitées réaliser
 
-###Fonctionalité numéro 1 :
+### Fonctionalité numéro 1 :
 
 - Etape 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu  
 Le vaisseau se déplace d'un pas vers la droite 
