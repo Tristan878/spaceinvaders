@@ -19,13 +19,9 @@ public class Vaisseau {
 	}
 
 	public boolean occupeLaPosition(int x, int y) {
-		if (estAbscisseCouverte(x))
-			if (estOrdonneeCouverte(y))
-				return true;
-
-		return false;
+		return (estAbscisseCouverte(x) && estOrdonneeCouverte(y));
 	}
-
+	
 	private boolean estOrdonneeCouverte(int y) {
 		return (ordonneeLaPlusBasse() <= y) && (y <= ordonneeLaPlusHaute());
 	}
